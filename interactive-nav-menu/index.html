@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vindu Bhojanam - Food for the Soul</title>
+
+    <!-- Add Bootstrap CDN links -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Vindu Bhojanam</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section
+      id="home"
+      class="hero-section text-center text-light d-flex align-items-center justify-content-center"
+      style="
+        height: 100vh;
+        background-image: url('images/restaurant-bg.jpg');
+        background-size: cover;
+      "
+    >
+      <div>
+        <h1>Vindu Bhojanam</h1>
+        <p>Food for the Soul</p>
+
+        <a href="#menu" class="btn btn-primary">View Our Menu</a>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5">
+      <div class="container text-center">
+        <h2>Our Menu</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="images/naan.jpg" alt="Naan" class="img-fluid" />
+            <h4>Garlic Butter Naan</h4>
+            <p>$12</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images\Chicken-Biryani-scaled.jpg"
+              alt="Chicken Dum Biryani"
+              class="img-fluid"
+            />
+            <h4>Chicken Dum Biryani</h4>
+            <p>$30</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/mocktails.jpg" alt="Mocktails" class="img-fluid" />
+            <h4>mocktails</h4>
+            <p>$15</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/jammun.jpg" alt="Gulab Jamun" class="img-fluid" />
+            <h4>Gulab Jamun</h4>
+            <p>$10</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/drum.jpg"
+              alt="Chicken Drumsticks"
+              class="img-fluid"
+            />
+            <h4>Chicken Drumsticks</h4>
+            <p>$20</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/masala.jpg"
+              alt="Paneer Butter Masala"
+              class="img-fluid"
+            />
+            <h4>Paneer Butter Masala</h4>
+            <p>$25</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="bg-light py-5">
+      <div class="container text-center">
+        <h2>About Us</h2>
+        <p>
+          At Vindu Bhojanam, we prepare delicious meals with love, passion, and
+          the finest ingredients. Taste the goodness of our food, made fresh for
+          you every day!
+          <h4>Our Mission</h4>
+          <p>To create meals that bring joy and comfort, with every bite reflecting our passion for good food and tradition.</p>
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container text-center">
+        <h2>Contact Us</h2>
+        <p>
+          For inquiries, please reach out to us at:
+          <strong>info@vindubhojanam.com</strong>
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-3 text-center">
+      <p>&copy; 2024 Vindu Bhojanam. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Add Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
