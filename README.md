@@ -21,7 +21,7 @@ Vindu Bhojanam is a responsive restaurant website showcasing an elegant menu, hi
 ## How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/vindu-bhojanam.git
+   git clone https://github.com/Pragnavi07/vindu-bhojanam.git
 
 
 You can update the repository URL in the `git clone` command and customize it further if needed!
